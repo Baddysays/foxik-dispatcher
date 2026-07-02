@@ -16,7 +16,7 @@
 ## Быстрый старт
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/foxik-dispatcher.git
+git clone git@github.com:Baddysays/foxik-dispatcher.git
 cd foxik-dispatcher
 npm install
 npm run dev      # http://localhost:5173
