@@ -1,20 +1,23 @@
 # Карта проекта
 
-Демо: https://foxik.baddysays.ru
+**Демо:** https://foxik.baddysays.ru  
+**GitHub:** https://github.com/Baddysays/foxik-dispatcher
 
 ## Код
 
 | Файл | Назначение |
 |------|------------|
-| src/data.js | Стартовый JSON ТЗ, локации |
-| src/analytics.js | Формула скоринга и фильтры |
-| src/context/GameContext.jsx | Состояние, WORKLOG |
-| src/components/StartScreen.jsx | Обзор (ядро ТЗ) |
-| src/components/StatsScreen.jsx | Таблица, фильтры |
-| src/components/AddScreen.jsx | Добавление и JSON |
-| src/components/ForestMap.jsx | SVG-карта (оригинальность) |
-| src/components/ObservationTimeline.jsx | Хронология смены |
-| src/components/ScoreBreakdown.jsx | Разбор балла лидера |
+| `src/data.js` | Стартовый JSON ТЗ, локации, генераторы |
+| `src/analytics.js` | Формула скоринга и фильтры |
+| `src/jsonImport.js` | Импорт JSON с валидацией |
+| `src/audio.js` | Web Audio — эмбиент и UI |
+| `src/context/GameContext.jsx` | Состояние, WORKLOG |
+| `src/components/StartScreen.jsx` | Обзор (ядро ТЗ) |
+| `src/components/StatsScreen.jsx` | Таблица, фильтры |
+| `src/components/AddScreen.jsx` | Добавление и JSON |
+| `src/components/ForestMap.jsx` | SVG-карта |
+| `src/components/ObservationTimeline.jsx` | Хронология смены |
+| `src/components/ScoreBreakdown.jsx` | Разбор балла лидера |
 
 ## 5 вопросов ТЗ → где ответ
 
