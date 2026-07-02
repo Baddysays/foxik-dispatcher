@@ -1,0 +1,82 @@
+[
+  {
+    "id": "obs_n01",
+    "fox_id": "fox_001",
+    "display_name": "Рыжик",
+    "location": "Северная поляна",
+    "color": "РЫЖЫЙ",
+    "has_prey": true,
+    "suspicion_level": 7,
+    "time": "07:30"
+  },
+  {
+    "id": "obs_n02",
+    "fox_id": "fox_005",
+    "display_name": "Ночка",
+    "location": "Туманная тропа",
+    "color": "черный",
+    "has_prey": true,
+    "suspicion_level": 9,
+    "time": "19:15"
+  },
+  {
+    "id": "obs_n03",
+    "fox_id": "fox_005",
+    "display_name": "Ночка",
+    "location": "Туманная тропа",
+    "color": "Чёрная",
+    "has_prey": false,
+    "suspicion_level": 10,
+    "time": "21:40"
+  },
+  {
+    "id": "obs_n04",
+    "fox_id": "fox_005",
+    "display_name": "Ночка",
+    "location": "Моховой овраг",
+    "color": "черная",
+    "has_prey": true,
+    "suspicion_level": 8,
+    "time": "23:55"
+  },
+  {
+    "id": "obs_n05",
+    "fox_id": "fox_006",
+    "display_name": "Серебро",
+    "location": "Моховой овраг",
+    "color": "серебристый",
+    "has_prey": false,
+    "suspicion_level": 6,
+    "time": "20:10"
+  },
+  {
+    "id": "obs_n06",
+    "fox_id": "fox_002",
+    "display_name": "Гошик",
+    "location": "Северная поляна",
+    "color": "черная",
+    "has_prey": false,
+    "suspicion_level": 4,
+    "time": "14:00"
+  },
+  {
+    "id": "obs_n07",
+    "fox_id": "fox_007",
+    "display_name": "Зорька",
+    "location": "Северная поляна",
+    "color": "рыжая",
+    "has_prey": true,
+    "suspicion_level": 5,
+    "time": "03:20"
+  },
+  {
+    "id": "obs_n08",
+    "fox_id": "fox_007",
+    "display_name": "Зорька",
+    "location": "Северная поляна",
+    "color": "рыжая",
+    "has_prey": false,
+    "suspicion_level": 6,
+    "time": "05:45"
+  }
+]

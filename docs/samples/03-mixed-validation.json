@@ -1,0 +1,82 @@
+[
+  {
+    "id": "obs_ok01",
+    "fox_id": "fox_010",
+    "display_name": "Проверка",
+    "location": "Северная поляна",
+    "color": "рыжая",
+    "has_prey": true,
+    "suspicion_level": 6,
+    "time": "10:00"
+  },
+  {
+    "id": "obs_color_norm",
+    "fox_id": "fox_011",
+    "display_name": "Регистр",
+    "location": "Моховой овраг",
+    "color": "Рыжий",
+    "has_prey": false,
+    "suspicion_level": 5,
+    "time": "11:30"
+  },
+  {
+    "id": "obs_unknown_color",
+    "fox_id": "fox_012",
+    "display_name": "Лазурь",
+    "location": "Туманная тропа",
+    "color": "лазурная",
+    "has_prey": false,
+    "suspicion_level": 7,
+    "time": "12:00"
+  },
+  {
+    "id": "obs_bad_location",
+    "fox_id": "fox_013",
+    "display_name": "Чужак",
+    "location": "Западный бор",
+    "color": "черная",
+    "has_prey": false,
+    "suspicion_level": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "obs_bad_time",
+    "fox_id": "fox_014",
+    "display_name": "Битое время",
+    "location": "Северная поляна",
+    "color": "серебристая",
+    "has_prey": false,
+    "suspicion_level": 5,
+    "time": "25:99"
+  },
+  {
+    "id": "obs_no_time",
+    "fox_id": "fox_015",
+    "display_name": "Без времени",
+    "location": "Туманная тропа",
+    "color": "черная",
+    "has_prey": true,
+    "suspicion_level": 8,
+    "time": ""
+  },
+  {
+    "id": "obs_suspicion_clamp",
+    "fox_id": "fox_016",
+    "display_name": "Скоринг",
+    "location": "Моховой овраг",
+    "color": "фиолетовая",
+    "has_prey": true,
+    "suspicion_level": 99,
+    "time": "22:30"
+  },
+  {
+    "id": "obs_night_ok",
+    "fox_id": "fox_010",
+    "display_name": "Проверка",
+    "location": "Туманная тропа",
+    "color": "рыжая",
+    "has_prey": false,
+    "suspicion_level": 9,
+    "time": "02:15"
+  }
+]
