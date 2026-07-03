@@ -172,16 +172,16 @@ export default function AddScreen() {
       />
 
       <section className="panel glass">
-        <h3>Данные ТЗ</h3>
-        <p className="muted">Вернуть стартовые 5 наблюдений из MOX (Notion).</p>
-        <button className="btn ghost" type="button" onClick={() => { audio.click(); resetObservations(); setMsg("Сброшено к 5 встречам из ТЗ"); }}>
-          Сброс к данным ТЗ
+        <h3>Стартовые данные</h3>
+        <p className="muted">Вернуть исходные 5 наблюдений при первом запуске.</p>
+        <button className="btn ghost" type="button" onClick={() => { audio.click(); resetObservations(); setMsg("Сброшено к 5 стартовым встречам"); }}>
+          Сброс к стартовым данным
         </button>
       </section>
 
       <details className="panel glass json-panel" open={jsonOpen} onToggle={(e) => setJsonOpen(e.target.open)}>
         <summary>Ручной JSON (массив наблюдений)</summary>
-        <p className="muted">Формат как в test-task.html MOX. После «Применить» — полная замена данных. Можно вставить текст или загрузить файл.</p>
+        <p className="muted">Массив объектов наблюдений. После «Применить» — полная замена данных. Можно вставить текст или загрузить файл.</p>
         <details className="json-help">
           <summary className="muted tiny">Возможные ошибки и как их обрабатывает система</summary>
           <ul className="json-reasons">

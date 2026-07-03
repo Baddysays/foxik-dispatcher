@@ -3,7 +3,7 @@ export default function RandomDataPanel({ params, updateParams, onGenerate }) {
     <section className="panel glass">
       <h3>Случайные данные</h3>
       <p className="muted">
-        Для демо и проверки формулы. Не из ТЗ — можно до 100 встреч и 50 лис с именами из пула.
+        Для демо и проверки формулы. Можно до 100 встреч и 50 лис с именами из пула.
       </p>
       <div className="random-data-box flat">
         <label>Наблюдений: <span className="val">{params.randomObsCount}</span></label>

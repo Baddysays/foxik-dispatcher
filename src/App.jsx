@@ -17,7 +17,7 @@ const TABS = [
 const PAGE_META = {
   start: {
     title: "Сводка лесной смены",
-    sub: "Карта, цифры смены, хронология и ответы на 5 вопросов из задания.",
+    sub: "Карта, цифры смены, хронология и краткая сводка.",
   },
   stats: {
     title: "Подробная сводка",
@@ -25,7 +25,7 @@ const PAGE_META = {
   },
   manual: {
     title: "Добавить",
-    sub: "Запись встреч, демо-данные, сброс к ТЗ и ручной JSON.",
+    sub: "Запись встреч, демо-данные, сброс к стартовым данным и ручной JSON.",
   },
   worklog: {
     title: "AI Worklog",
@@ -51,7 +51,7 @@ export default function App() {
           <span className="brand-fox" aria-hidden="true">🦊</span>
           <div>
             <div className="brand-name">Лисий <b>диспетчер</b></div>
-            <div className="brand-tag">MOX · Вариант 01</div>
+            <div className="brand-tag">Лесная смена</div>
           </div>
         </div>
         <nav className="sidebar-nav" aria-label="Разделы">

@@ -152,7 +152,7 @@ export function formatFoxColorLabel(color, observation) {
   return color || "—";
 }
 
-/** Стартовые данные MOX (Notion, 5 наблюдений). */
+/** Стартовые данные (5 наблюдений). */
 export const INITIAL_OBSERVATIONS = [
   { id: "obs_001", fox_id: "fox_001", display_name: "Рыжик", location: "Северная поляна", color: "рыжая", has_prey: true, suspicion_level: 8, time: "08:20" },
   { id: "obs_002", fox_id: "fox_002", display_name: "Гошик", location: "Туманная тропа", color: "черная", has_prey: false, suspicion_level: 5, time: "09:05" },

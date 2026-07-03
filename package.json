@@ -1,7 +1,7 @@
 {
   "name": "foxik-dispatcher",
   "version": "1.0.0",
-  "description": "Лисий диспетчер — интерактивная панель лесного смотрителя (MOX test task)",
+  "description": "Лисий диспетчер — интерактивная панель лесного смотрителя",
   "private": true,
   "type": "module",
   "scripts": {

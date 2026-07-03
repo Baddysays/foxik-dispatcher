@@ -152,7 +152,7 @@ export default function StartScreen() {
       </div>
 
       <section className="panel glass tz-checklist">
-        <h3>Ответы на 5 вопросов из задания</h3>
+        <h3>Краткая сводка по смене</h3>
         <ul className="tz-list">
           <li><strong>Сколько лис:</strong> {stats.uniqueFoxes.length} — {stats.uniqueFoxes.map((id) => getFoxDisplayName(id, observations)).join(", ") || "нет"}</li>
           <li><strong>Где чаще бывают:</strong> {heat.length ? heat.map(([n, c]) => `«${n}» (${c})`).join(", ") : "нет"}</li>
